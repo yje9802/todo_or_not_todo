@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="src/index.css" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+            integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+            crossorigin="anonymous"
+        />
+        <title>Hello</title>
+    </head>
+    <body>
+        <div class="main-wrapper">
+            <div class="js-clock">
+                <h1 class="js-title">00:00</h1>
+            </div>
+            <form class="js-form form">
+                <input type="text" placeholder="What is your name?" />
+            </form>
+            <h3 class="js-greetings greeting"></h3>
+            <form class="js-toDoForm">
+                <input
+                    type="text"
+                    placeholder="What is your main goal for today?"
+                />
+            </form>
+            <ul class="js-toDoList"></ul>
+        </div>
+
+        <div class="js-weather"></div>
+        <div class="bg-location"></div>
+
+        <script src="src/clock.js"></script>
+        <script src="src/greeting.js"></script>
+        <script src="src/todo.js"></script>
+        <script src="src/background.js"></script>
+        <script src="src/weather.js"></script>
+    </body>
+</html>
